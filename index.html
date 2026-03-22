@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResQ Kit – Official Developer Page</title>
+    <style>
+        :root {
+            --accent: #ff6b35;
+            --bg: #f5f5f7;
+            --text: #1d1d1f;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 48px;
+            border-radius: 32px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card:hover { transform: translateY(-8px); }
+        .logo {
+            font-size: 4rem;
+            margin-bottom: 24px;
+            display: block;
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 12px;
+            letter-spacing: -1px;
+        }
+        p {
+            color: #86868b;
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin-bottom: 32px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 16px 24px;
+            border-radius: 14px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .btn-primary {
+            background: var(--text);
+            color: white;
+        }
+        .btn-primary:hover { background: #000; }
+        .btn-secondary {
+            background: #f2f2f7;
+            color: var(--text);
+            font-size: 0.95rem;
+        }
+        .btn-secondary:hover { background: #e5e5ea; }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.85rem;
+            color: #a1a1a6;
+        }
+        .sep { margin: 0 8px; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <span class="logo">🛡️</span>
+    <h1>ResQ Kit</h1>
+    <p>Deprem ve doğal afetler için hızlı, güvenilir ve hayat kurtaran mobil asistanınız.</p>
+    
+    <div class="links">
+        <a href="https://apps.apple.com/app/resq-kit/id6759835667" class="btn btn-primary">App Store'da Görüntüle</a>
+        <a href="/resqkit-privacy" class="btn btn-secondary">Gizlilik Politikası (TR)</a>
+        <a href="/privacy-policy" class="btn btn-secondary">Privacy Policy (EN)</a>
+    </div>
+
+    <div class="footer">
+        © 2026 Turgay Yazıcı <span class="sep">•</span> ResQ Kit Support
+    </div>
+</div>
+
+</body>
+</html>
